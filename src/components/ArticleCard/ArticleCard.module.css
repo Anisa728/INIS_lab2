@@ -1,0 +1,103 @@
+.card {
+  border: 1px solid #e8e8e8;
+  border-radius: 18px;
+  background: #ffffff;
+  overflow: hidden;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.body {
+  padding: 18px 20px 20px;
+}
+
+.authorRow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid #e6e6e6;
+  background: #f4f4f4;
+  display: grid;
+  place-items: center;
+  flex: none;
+}
+
+.avatar img {
+  width: 22px;
+  height: 22px;
+  display: block;
+}
+
+.author,
+.date {
+  margin: 0;
+}
+
+.author {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.date {
+  margin-top: 2px;
+  color: #9aa094;
+  font-size: 13px;
+}
+
+.title {
+  margin: 16px 0 8px;
+  font-size: 28px;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+}
+
+.text {
+  margin: 0;
+  color: #8a8f86;
+  font-size: 16px;
+  line-height: 1.45;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.comment {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  height: 40px;
+  padding: 0 14px;
+  border: 1px solid #e4e4e4;
+  border-radius: 12px;
+  background: #ffffff;
+  color: #3a3f36;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.comment:hover {
+  background: #f4ffe8;
+  border-color: #b9ff37;
+}
+
+.commentIcon {
+  width: 22px;
+  height: 22px;
+  display: block;
+}
